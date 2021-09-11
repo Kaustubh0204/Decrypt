@@ -1,11 +1,8 @@
 .banner {
-    /* position: absolute; */
     height: 100%;
     background-image: url('assets/decrypt landingtest-01.png');
     background-size: 1920px;
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
     background-repeat: no-repeat;
-
 }
 
 .banner2 {
@@ -13,9 +10,7 @@
     height: 100%;
     background-image: url('assets/what_is_decrypt_bg.png');
     background-size:  1920px 1080px;
-    /* filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)); */
     background-repeat: no-repeat;
-
 }
 
 .hover-down {
