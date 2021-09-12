@@ -8,7 +8,7 @@
 .banner2 {
     /* position: absolute; */
     height: 100%;
-    background-image: url('assets/what_is_decrypt_bg.png');
+    background-image: url('assets/banner2-background.png');
     background-size:  1920px 1080px;
     background-repeat: no-repeat;
 }
@@ -30,6 +30,14 @@
     transform: translate(0, -5px);
     cursor: pointer;
 }
+
+.socialmedia{
+    color: white;
+}
+.socialmedia:hover{
+    color: #8854C8;
+}
+
 
 :root {
     /* Base font size */
