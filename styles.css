@@ -6,9 +6,15 @@
 }
 
 .banner2 {
-    /* position: absolute; */
     height: 100%;
     background-image: url('assets/banner2-background.png');
+    background-size:  1920px 1080px;
+    background-repeat: no-repeat;
+}
+
+.banner3 {
+    height: 100%;
+    background-image: url('assets/banner3-background.png');
     background-size:  1920px 1080px;
     background-repeat: no-repeat;
 }
@@ -37,6 +43,26 @@
 .socialmedia:hover{
     color: #8854C8;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212529; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8854C8; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8854C8; 
+  }
 
 
 :root {

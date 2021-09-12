@@ -42,3 +42,111 @@ for (const { geometry, properties } of geojson.features) {
         )
         .addTo(map);
 }
+
+function clicked(){
+    console.log("clicked");
+}
+
+
+var a = document.getElementById("current");
+a.style.display = "block";
+var b = document.getElementById("currentm1");
+b.style.display = "none";
+var c = document.getElementById("currentm2");
+c.style.display = "none";
+var d = document.getElementById("currentm3");
+d.style.display = "none";
+
+var x = document.getElementById("swapbtn");
+x.style.backgroundColor = "#4D287B";
+var y = document.getElementById("swapbtn1");
+y.style.backgroundColor = "#8854C8";
+var z = document.getElementById("swapbtn2");
+z.style.backgroundColor = "#8854C8";
+var w = document.getElementById("swapbtn3");
+w.style.backgroundColor = "#8854C8";
+
+function swap(year){
+
+    if(year == 'current'){
+        var a = document.getElementById("current");
+        a.style.display = "block";
+        var b = document.getElementById("currentm1");
+        b.style.display = "none";
+        var c = document.getElementById("currentm2");
+        c.style.display = "none";
+        var d = document.getElementById("currentm3");
+        d.style.display = "none";
+
+        var x = document.getElementById("swapbtn");
+        x.style.backgroundColor = "#4D287B";
+        var y = document.getElementById("swapbtn1");
+        y.style.backgroundColor = "#8854C8";
+        var z = document.getElementById("swapbtn2");
+        z.style.backgroundColor = "#8854C8";
+        var w = document.getElementById("swapbtn3");
+        w.style.backgroundColor = "#8854C8";
+    }
+
+    if(year == 'currentm1'){
+        var a = document.getElementById("current");
+        a.style.display = "none";
+        var b = document.getElementById("currentm1");
+        b.style.display = "block";
+        var c = document.getElementById("currentm2");
+        c.style.display = "none";
+        var d = document.getElementById("currentm3");
+        d.style.display = "none";
+
+        var x = document.getElementById("swapbtn");
+        x.style.backgroundColor = "#8854C8";
+        var y = document.getElementById("swapbtn1");
+        y.style.backgroundColor = "#4D287B";
+        var z = document.getElementById("swapbtn2");
+        z.style.backgroundColor = "#8854C8";
+        var w = document.getElementById("swapbtn3");
+        w.style.backgroundColor = "#8854C8";
+    }
+
+    if(year == 'currentm2'){
+        var a = document.getElementById("current");
+        a.style.display = "none";
+        var b = document.getElementById("currentm1");
+        b.style.display = "none";
+        var c = document.getElementById("currentm2");
+        c.style.display = "block";
+        var d = document.getElementById("currentm3");
+        d.style.display = "none";
+
+        var x = document.getElementById("swapbtn");
+        x.style.backgroundColor = "#8854C8";
+        var y = document.getElementById("swapbtn1");
+        y.style.backgroundColor = "#8854C8";
+        var z = document.getElementById("swapbtn2");
+        z.style.backgroundColor = "#4D287B";
+        var w = document.getElementById("swapbtn3");
+        w.style.backgroundColor = "#8854C8";
+    }
+
+    if(year == 'currentm3'){
+        var a = document.getElementById("current");
+        a.style.display = "none";
+        var b = document.getElementById("currentm1");
+        b.style.display = "none";
+        var c = document.getElementById("currentm2");
+        c.style.display = "none";
+        var d = document.getElementById("currentm3");
+        d.style.display = "block";
+
+        var x = document.getElementById("swapbtn");
+        x.style.backgroundColor = "#8854C8";
+        var y = document.getElementById("swapbtn1");
+        y.style.backgroundColor = "#8854C8";
+        var z = document.getElementById("swapbtn2");
+        z.style.backgroundColor = "#8854C8";
+        var w = document.getElementById("swapbtn3");
+        w.style.backgroundColor = "#4D287B";
+    }
+
+
+}
