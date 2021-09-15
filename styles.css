@@ -19,6 +19,13 @@
     background-repeat: no-repeat;
 }
 
+.banner4 {
+    height: 100%;
+    background-image: url('assets/banner4-background.png');
+    background-size:  1920px 1080px;
+    background-repeat: no-repeat;
+}
+
 .hover-down {
     transition: 0.2s;
 }
@@ -51,7 +58,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #212529; 
+    background: #212529 ; 
   }
    
   /* Handle */
