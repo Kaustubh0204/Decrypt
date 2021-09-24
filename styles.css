@@ -26,6 +26,18 @@
     background-repeat: no-repeat;
 }
 
+@font-face {
+    font-family: azonix;
+    src: url(fonts/Azonix.otf);
+  }
+
+  @font-face {
+    font-family: termina;
+    src: url(fonts/Termina-W05-Bold.ttf);
+  }
+
+  
+
 .hover-down {
     transition: 0.2s;
 }
