@@ -5,17 +5,24 @@
     background-repeat: no-repeat;
 }
 
+.banner-mobi{
+    height: 100%;
+    background-image: url('assets/banner-mobi-2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .banner2 {
     height: 100%;
-    background-image: url('assets/banner2-background.png');
+    background-image: url('assets/bg-decrypt-04.png');
     background-size:  1920px 1080px;
     background-repeat: no-repeat;
 }
 
 .banner3 {
     height: 100%;
-    background-image: url('assets/banner3-background.png');
-    background-size:  1920px 1080px;
+    background-image: url('assets/bg-decrypt-07-2.png');
+    background-size:  100%;
     background-repeat: no-repeat;
 }
 
